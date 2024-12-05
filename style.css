@@ -1,0 +1,160 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.color {
+    background-color: #1F2937;
+    /* display: flex;
+    flex-direction: column;
+    align-items: baseline; */
+}
+
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0px;
+    margin-left: 95px
+}
+
+.links {
+    display: flex;
+    gap: 19px;
+}
+
+ ul {
+    list-style-type: none;
+ }
+
+ a {
+    text-decoration: none;
+    color: grey;
+ }
+
+ .text {
+    color: white;
+    width: 500px;
+    margin-left: 40px;
+ }
+ 
+ .bold {
+    font-size: 48px;
+    font-weight: 600;
+ }
+
+ .container1 {
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+ .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+ }
+
+ .container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    background-color: #E5E7EB;
+    gap: 10px;
+ }
+ 
+ .container4{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+ }
+ .box{
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+ }
+
+ .quote {
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+ }
+
+ .text2{
+    color: white;
+    font-weight: 200;
+ }
+
+ .action{
+    font-weight: 600;
+    margin-bottom: -14px;
+ }
+
+ .author{
+    margin-left: 600px;
+ }
+
+ .cards{
+    display: flex;
+    gap: 40px;
+
+
+ }
+ .pack {
+    height: auto;
+    width: 175px;
+    border-radius: 20px;
+    margin-left: 10px;
+ }
+  .description {
+    width: 200px;
+    text-align: center;
+  }
+  .random{
+    font-size: 23px;
+    font-weight: 700;
+    padding: 18px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    
+    
+  }
+  .hollow{
+    border: 2px solid white; 
+    height: 30px;
+    width: auto;
+    margin-top: 11px;
+ }
+
+ .footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: white;
+    padding: 20px 30px;
+ }
+ 
